@@ -1,0 +1,43 @@
+@media (max-width: 768px) {
+  .text-nav {
+    display: none;
+  }
+
+  #nav-bar {
+    height: auto;
+    display: block;
+  }
+
+  nav .container {
+    padding: 0;
+  }
+
+  #nav-bar a:link,
+  a:visited {
+    display: block;
+    padding: 10px;
+    border-left: none;
+    text-align: left;
+  }
+
+  #personal-info {
+    padding-right: 25px;
+  }
+  .cer-content {
+    flex-direction: column;
+  }
+  .cer-content2 {
+    border-left: none;
+    border-top: 2px solid #d6c08d;
+    padding-top: 20px;
+  }
+  .img-cc {
+    width: 100%;
+  }
+
+  #footer a:link,
+  a:visited {
+    font-size: 20px !important;
+    margin-right: 10px;
+  }
+}

@@ -1,0 +1,47 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+  .text-nav {
+    display: none;
+  }
+  #nav-bar a:link,
+  a:visited {
+    padding: 16px;
+    margin-right: 1em;
+    padding-bottom: 30px;
+  }
+  #nav-bar {
+    margin-top: 1rem;
+  }
+
+  #personal-info,
+  #target {
+    font-size: 16px;
+    padding-right: 40px;
+  }
+
+  .cer-content {
+    flex-direction: column;
+  }
+
+  .img-cc {
+    width: 100%;
+  }
+
+  .project-title {
+    font-size: 14px;
+  }
+  .project-banner {
+    font-size: 10px;
+  }
+
+  table {
+    font-size: 14px;
+  }
+
+  .project-banner span {
+    margin-right: 5px !important;
+  }
+
+  tr td:first-child {
+    width: 25%;
+  }
+}
