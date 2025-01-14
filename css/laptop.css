@@ -12,7 +12,7 @@ body {
   color: #1d3556;
 }
 section > .container {
-  width: 1370px;
+  width: 100%;
   margin: auto;
   display: block;
   padding: 30px 50px;
